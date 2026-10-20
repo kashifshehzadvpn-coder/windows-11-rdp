@@ -54,7 +54,7 @@ jobs:
         Write-Host "Tailscale connection established"
       shell: powershell
       env:
-        TAILSCALE_AUTH_TOKEN: ${{ secrets.TAILSCALE_AUTH_TOKEN }}
+        TAILSCALE_AUTH_TOKEN1: ${{ secrets.TAILSCALE_AUTH_TOKEN }}
 
     - name: Enable Remote Desktop
       run: |
